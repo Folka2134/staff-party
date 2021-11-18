@@ -3,6 +3,12 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      height: {
+        xxl: "80%"
+      },
+      width: {
+        xxl: "95%"
+      },
       colors: {
         orange: {
           light : '#ED7839',

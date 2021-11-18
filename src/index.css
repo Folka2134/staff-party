@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'titleFont';
+  /* src: local('BomberEscortGradient'), url(/src/fonts/BomberEscortGradient.otf); */
+  /* src: local('BomberEscortGradientOutlineItalic'), url(/src/fonts/BomberEscortOutlineItalic.otf); */
+  src: local('DarkSeed'), url(/src/fonts/DarkSeed.ttf) format('truetype');
+  /* src: local('Spantaran'), url(/src/fonts/Spantaran.ttf) format('truetype'); */
+}
+
+.title {
+   font-family: "titleFont";
+}
