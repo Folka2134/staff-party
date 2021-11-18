@@ -5,9 +5,13 @@ import { Link } from 'react-scroll';
 
 export const Cover = () => {
     return (
-        <div className="title h-screen w-full flex justify-center items-center bg-black">
+        <div  className="cover-container title h-screen w-full flex justify-center items-center bg-black">
+            
             <Link to="banner-container" smooth={true}>
-                <h1 className="text-orange-default text-5xl cursor-pointer">Staff Party</h1>
+                <div className="title text-orange-default text-5xl cursor-pointer">
+                    <h1 className="">Staff Party</h1>
+                    <div className="overlay rounded-2xl">Staff Party</div>
+                </div>
             </Link>
         </div>
     )
