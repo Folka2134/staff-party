@@ -9,7 +9,7 @@ export const Cover = () => {
             
             <Link to="banner-container" smooth={true}>
                 <div className="title text-orange-default text-5xl cursor-pointer">
-                    <h1 className="">Staff Party</h1>
+                    {/* <h1 className="">Staff Party</h1> */}
                     <div className="overlay rounded-2xl">Staff Party</div>
                 </div>
             </Link>

@@ -12,7 +12,8 @@ module.exports = {
       colors: {
         orange: {
           light : '#ED7839',
-          default: '#E95C15'
+          default: '#E95C15',
+          dark: '#F5140A'
         }
       }
     },
