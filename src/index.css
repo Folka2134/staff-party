@@ -26,10 +26,6 @@
 } */
 @keyframes flash {
   0% { opacity:1; }
-  
-
-
-  
   30% { opacity:1; }
   40% { opacity:1; }
   47% { opacity:0; }
@@ -62,6 +58,9 @@
 .banner-container::-webkit-scrollbar {   display: none; }.banner-container {   -ms-overflow-style: none; }
 
 @layer components {
+  .nav-container {
+    @apply justify-end fixed h-auto w-full text-orange-default top-10 justify-self-end pr-44
+  }
   .nav-item {
     @apply inline cursor-pointer hover:text-orange-dark transition-all duration-300 ease-linear shadow-2xl
   }

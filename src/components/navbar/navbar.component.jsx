@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 
 import { Link } from 'react-scroll';
 import { IconContext } from 'react-icons/lib';
@@ -10,9 +10,17 @@ import { FaCompactDisc } from 'react-icons/fa';
 import { MdDashboard } from 'react-icons/md';
 // import { IoMdShirt } from 'react-icons/io';
 
+
 export const NavBar = () => {
+    const [scroll, setScroll] = useState(false)
+    useEffect(() => {
+      window.addEventListener("scroll", () => {
+        setScroll(window.scrollY > 850)
+      })
+    }, [])
+
     return (
-        <div className="flex justify-end fixed h-auto w-full text-orange-default top-5 justify-self-end pr-44">
+        <div className={scroll ? "nav-container flex" : "hidden"}>
             <div className="nav-bar bg-black h-14 w-80 rounded-lg">
                 <ul className="nav-list h-full list-none flex justify-evenly items-center">
                     <IconContext.Provider value={{ size: "40"}}>
