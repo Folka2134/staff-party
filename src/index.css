@@ -59,6 +59,8 @@
   animation-delay: 1s;
 }
 
+.banner-container::-webkit-scrollbar {   display: none; }.banner-container {   -ms-overflow-style: none; }
+
 @layer components {
   .nav-item {
     @apply inline cursor-pointer hover:text-orange-dark transition-all duration-300 ease-linear shadow-2xl
