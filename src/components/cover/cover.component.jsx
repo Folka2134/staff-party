@@ -12,8 +12,8 @@ export const Cover = () => {
     
     return (
         <div  className="cover-container title h-screen w-full flex justify-center items-center bg-black">
-            <Link to="banner-container" smooth={true}>
-                <div className="title text-orange-default text-5xl cursor-pointer">
+            <Link to="disc-container" smooth={true}>
+                <div className="title text-orange-default hover:text-white text-5xl cursor-pointer transition-all duration-300 ease-linear">
                     {/* <h1 className="">Staff Party</h1> */}
                     <div className="overlay rounded-2xl" onClick={startScroll}>Staff Party</div>
                 </div>

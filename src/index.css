@@ -59,7 +59,7 @@
 
 @layer components {
   .nav-container {
-    @apply justify-end fixed h-auto w-full text-orange-default top-10 justify-self-end pr-44
+    @apply justify-end fixed h-auto w-full text-orange-default top-10 justify-self-end pr-44 transition-all duration-700 ease-in-out
   }
   .nav-item {
     @apply inline cursor-pointer hover:text-orange-dark transition-all duration-300 ease-linear shadow-2xl
