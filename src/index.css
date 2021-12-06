@@ -44,6 +44,91 @@
   100% { opacity:1; }
 }
 
+/* :root {
+  --bg-color-primary: #E32943;
+  --bg-color-secondary: #E3CC0D;
+  --bg-color-primary2: #2D2C48;
+  --bg-color-primary3: #E43416;
+} */
+
+.wave {
+  position: absolute;
+  top: -1;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+} 
+
+.wave svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 95px;
+}
+
+.wave .shape-fill {
+  /* fill: #08010E; */
+  fill: #08010E;
+}
+
+
+.custom-shape-divider-bottom-1638816221 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1638816221 svg {
+  position: relative;
+  display: block;
+  width: calc(118% + 1.3px);
+  height: 125px;
+ }
+
+.custom-shape-divider-bottom-1638816221 .shape-fill {
+  fill: #08010E;
+}
+/*
+.wave3 {
+  bottom: -10px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave3 svg {
+  position: relative;
+  display: block;
+  width: calc(118% + 1.3px);
+  height: 125px;
+}
+
+.wave3 .shape-fill {
+  fill: #08010E;
+}   */
+
+.cover-container {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(/src/components/cover/cover_background.svg);
+}
+
+.App {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(/src/components/discography/disck_background2.svg);
+}
+
 .title {
    font-family: "titleFont";   
 }
@@ -51,7 +136,7 @@
 .overlay {
  width:100%; 
   opacity:1;
-  animation:flash 5s ease-in infinite;
+  animation: flash 5s ease-in infinite;
   animation-delay: 1s;
 }
 
@@ -59,9 +144,9 @@
 
 @layer components {
   .nav-container {
-    @apply justify-end fixed h-auto w-full text-orange-default top-10 justify-self-end pr-44 transition-all duration-700 ease-in-out
+    @apply justify-end fixed h-auto w-full text-set2-sixth top-10 justify-self-end pr-44 transition-all duration-700 ease-in-out
   }
   .nav-item {
-    @apply inline cursor-pointer hover:text-orange-dark transition-all duration-300 ease-linear shadow-2xl
+    @apply inline cursor-pointer hover:text-set2-third transition-all duration-300 ease-linear shadow-2xl
   }
 }
