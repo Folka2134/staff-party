@@ -19,6 +19,7 @@ export const Discography = () => {
                         <p className="text-white">Released August 27, 2021</p>
                         <p className="text-white">Engineered by Paul 'Win' Winstanley at Brighton Electric/PW Studio</p>
                         <p className="text-white">Mastered by Alan Douches at West West Side Music</p>
+                        <button className="bg-set2-fifth hover:bg-set2-third w-24 m-6 transition-all duration-300 ease-linear shadow-2xl rounded-md"><a href="https://staffpartyband.bandcamp.com/track/rock-bottom" target="_blank">LISTEN/BUY</a></button>
                     </div>
                 </div>
                 <div className="banner h-auto my-16 md:flex grid justify-center">
@@ -30,6 +31,7 @@ export const Discography = () => {
                         <p className="text-white">released May 30, 2021</p>
                         <p className="text-white">Engineered by Paul 'Win' Winstanley at Brighton Electric/PW Studio</p>
                         <p className="text-white">Mastered by Alan Douches at West West Side Music </p>
+                        <button className="bg-set2-fifth hover:bg-set2-third w-24 m-6 transition-all duration-300 ease-linear shadow-2xl rounded-md"><a href="https://staffpartyband.bandcamp.com/track/steam" target="_blank">LISTEN/BUY</a></button>
                     </div>
                 </div>
                 <div className="banner h-auto my-16 md:flex grid justify-center">
@@ -41,6 +43,7 @@ export const Discography = () => {
                         <p className="text-white">Released April 3, 2020 </p>
                         <p className="text-white">Engineered by Paul 'Win' Winstanley at Brighton Electric/PW Studio</p>
                         <p className="text-white">Mastered by Alan Douches at West West Side Music </p>
+                        <button className="bg-set2-fifth hover:bg-set2-third w-24 m-6 transition-all duration-300 ease-linear shadow-2xl rounded-md"><a href="https://staffpartyband.bandcamp.com/track/the-end-is-nigh" target="_blank">LISTEN/BUY</a></button>
                     </div>
                 </div>
             </div>

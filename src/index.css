@@ -99,7 +99,7 @@
   .nav-container {
     @apply justify-end fixed h-auto w-full text-set2-sixth top-10 justify-self-end pr-44 transition-all duration-700 ease-in-out
   }
-  .nav-item {
+  .btn {
     @apply inline cursor-pointer hover:text-set2-third transition-all duration-300 ease-linear shadow-2xl
   }
   .record-img {
