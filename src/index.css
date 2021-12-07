@@ -93,25 +93,6 @@
 .custom-shape-divider-bottom-1638816221 .shape-fill {
   fill: #08010E;
 }
-/*
-.wave3 {
-  bottom: -10px;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-}
-
-.wave3 svg {
-  position: relative;
-  display: block;
-  width: calc(118% + 1.3px);
-  height: 125px;
-}
-
-.wave3 .shape-fill {
-  fill: #08010E;
-}   */
 
 .cover-container {
   width: 100%;

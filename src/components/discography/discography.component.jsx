@@ -1,37 +1,48 @@
 import React from 'react'
 
+import rockbottom from "./rockbottom_record.jpg"
+import steam from "./steam_record.jpg"
+import endisnigh from "./endisnigh_record.jpg"
+
 export const Discography = () => {
     return (
         <div>
             <div className="h-4 bg-set2-fourth"></div>
             <div className="disc-container h-full w-full ">
-                {/* <div class=" custom-shape-divider-bottom-1638816221">
-                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                        <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
-                    </svg>
-                </div> */}
-                {/* <div class="wave">
-                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                        <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
-                    </svg>
-                </div> */}
-                <h1 className="title mx-16 py-12 text-8xl text-set2-sixth">Discography</h1>
-                <div className="banner h-screen mx-16 flex justify-center items-center ">
-                    <div className="flex justify-center items-center h-full w-full">
-                        <h1 className="title text-white">Discography items</h1>
+                <h1 className="title text-center md:text-left md:mx-16 py-12 text-8xl text-set2-sixth">Discography</h1>
+                <div className="banner h-auto my-16 md:flex grid justify-center">
+                    <div className="flex p-4 justify-center items-center h-full w-full">
+                        <img src={rockbottom} className="record-img" width="700rem" height="auto" alt="rockbottom"/>
+                    </div>
+                    <div className="grid p-4 justify-start h-full w-full">
+                        <h1 className="title p-4 text-white text-4xl">Rock Bottom (2021)</h1>
+                        <p className="text-white">Released August 27, 2021</p>
+                        <p className="text-white">Engineered by Paul 'Win' Winstanley at Brighton Electric/PW Studio</p>
+                        <p className="text-white">Mastered by Alan Douches at West West Side Music</p>
                     </div>
                 </div>
-                <div className="banner h-screen mx-16 flex justify-center items-center ">
-                    <div className="flex justify-center items-center h-full w-full">
-                        <h1 className="title text-white">Discography items</h1>
+                <div className="banner h-auto my-16 md:flex grid justify-center">
+                    <div className="flex p-4 justify-center items-center h-full w-full">
+                        <img src={steam} className="record-img" width="700rem" height="auto" alt="steam"/>
+                    </div>
+                    <div className="grid p-4 justify-start h-full w-full">
+                        <h1 className="title p-4 text-white text-4xl">Steam (2021)</h1>
+                        <p className="text-white">released May 30, 2021</p>
+                        <p className="text-white">Engineered by Paul 'Win' Winstanley at Brighton Electric/PW Studio</p>
+                        <p className="text-white">Mastered by Alan Douches at West West Side Music </p>
                     </div>
                 </div>
-                <div className="banner h-screen mx-16 flex justify-center items-center ">
-                    <div className="flex justify-center items-center h-full w-full">
-                        <h1 className="title text-white">Discography hello</h1>
+                <div className="banner h-auto my-16 md:flex grid justify-center">
+                    <div className="flex p-4 justify-center items-center h-full w-full">
+                        <img src={endisnigh} className="record-img" width="700rem" height="auto" alt="endisnigh"/>
+                    </div>
+                    <div className="grid p-4 justify-start h-full w-full">
+                        <h1 className="title p-4 text-white text-4xl">The End is Nigh (2020)</h1>
+                        <p className="text-white">Released April 3, 2020 </p>
+                        <p className="text-white">Engineered by Paul 'Win' Winstanley at Brighton Electric/PW Studio</p>
+                        <p className="text-white">Mastered by Alan Douches at West West Side Music </p>
                     </div>
                 </div>
-      
             </div>
         </div>
     )
