@@ -66,7 +66,21 @@
   background-size: cover;
   background-image: url(/src/components/discography/disck_background2.svg);
 }
+.crew-container {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(/src/components/crew/blob-scatter-haikei.svg);
+}
 
+.vibe-banner {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(/src/components/vibe/vibe_pic.png);
+}
 .title {
    font-family: "titleFont";   
 }

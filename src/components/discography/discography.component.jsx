@@ -44,7 +44,7 @@ export const Discography = () => {
                     </div>
                 </div>
             </div>
-            <div className="h-4 bg-set2-fourth"></div>
+
         </div>
     )
 }

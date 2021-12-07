@@ -14,8 +14,8 @@ const App = () => {
     <div className="App">
       <Cover />
       <NavBar />
-      {/* <Banner />
-      <Crew /> */}
+      {/* <Banner /> */}
+      {/* <Crew /> */}
       <Discography />
       <Vibe />
     </div>
