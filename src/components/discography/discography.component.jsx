@@ -9,7 +9,7 @@ export const Discography = () => {
         <div>
             <div className="h-4 bg-set2-fourth"></div>
             <div className="disc-container h-full w-full ">
-                <h1 className="title text-center md:text-left md:mx-16 py-12 md:text-8xl text-6xl text-set2-sixth">Discography</h1>
+                <h1 className="title text-center md:text-left md:mx-16 pt-12 md:py-12 md:text-8xl text-6xl text-set2-sixth">Discography</h1>
                 <div className="banner h-auto my-16 md:flex grid justify-center">
                     <div className="flex p-4 justify-center items-center h-full w-full scale-75">
                         <img src={rockbottom} className="record-img" width="700rem" height="auto" alt="rockbottom"/>
