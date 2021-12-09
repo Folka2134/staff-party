@@ -9,7 +9,7 @@ export const Discography = () => {
         <div>
             <div className="h-4 bg-set2-fourth"></div>
             <div className="disc-container h-full w-full ">
-                <h1 className="title text-center md:text-left md:mx-16 py-12 text-8xl text-set2-sixth">Discography</h1>
+                <h1 className="title text-center md:text-left md:mx-16 py-12 md:text-8xl text-6xl text-set2-sixth">Discography</h1>
                 <div className="banner h-auto my-16 md:flex grid justify-center">
                     <div className="flex p-4 justify-center items-center h-full w-full scale-75">
                         <img src={rockbottom} className="record-img" width="700rem" height="auto" alt="rockbottom"/>
@@ -19,7 +19,7 @@ export const Discography = () => {
                         <p className="text-white">Released August 27, 2021</p>
                         <p className="text-white">Engineered by Paul 'Win' Winstanley at Brighton Electric/PW Studio</p>
                         <p className="text-white">Mastered by Alan Douches at West West Side Music</p>
-                        <button className="bg-set2-fifth hover:bg-set2-third w-24 m-6 transition-all duration-300 ease-linear shadow-2xl rounded-md"><a href="https://staffpartyband.bandcamp.com/track/rock-bottom" target="_blank">LISTEN/BUY</a></button>
+                        <button className="bg-set2-fifth hover:bg-set2-third w-24 m-6 transition-all duration-300 ease-linear shadow-2xl rounded-md"><a href="https://staffpartyband.bandcamp.com/track/rock-bottom" target="_blank" rel="noreferrer">LISTEN/BUY</a></button>
                     </div>
                 </div>
                 <div className="banner h-auto my-16 md:flex grid justify-center">
@@ -31,7 +31,7 @@ export const Discography = () => {
                         <p className="text-white">released May 30, 2021</p>
                         <p className="text-white">Engineered by Paul 'Win' Winstanley at Brighton Electric/PW Studio</p>
                         <p className="text-white">Mastered by Alan Douches at West West Side Music </p>
-                        <button className="bg-set2-fifth hover:bg-set2-third w-24 m-6 transition-all duration-300 ease-linear shadow-2xl rounded-md"><a href="https://staffpartyband.bandcamp.com/track/steam" target="_blank">LISTEN/BUY</a></button>
+                        <button className="bg-set2-fifth hover:bg-set2-third w-24 m-6 transition-all duration-300 ease-linear shadow-2xl rounded-md"><a href="https://staffpartyband.bandcamp.com/track/steam" target="_blank" rel="noreferrer">LISTEN/BUY</a></button>
                     </div>
                 </div>
                 <div className="banner h-auto my-16 md:flex grid justify-center">
@@ -43,7 +43,7 @@ export const Discography = () => {
                         <p className="text-white">Released April 3, 2020 </p>
                         <p className="text-white">Engineered by Paul 'Win' Winstanley at Brighton Electric/PW Studio</p>
                         <p className="text-white">Mastered by Alan Douches at West West Side Music </p>
-                        <button className="bg-set2-fifth hover:bg-set2-third w-24 m-6 transition-all duration-300 ease-linear shadow-2xl rounded-md"><a href="https://staffpartyband.bandcamp.com/track/the-end-is-nigh" target="_blank">LISTEN/BUY</a></button>
+                        <button className="bg-set2-fifth hover:bg-set2-third w-24 m-6 transition-all duration-300 ease-linear shadow-2xl rounded-md"><a href="https://staffpartyband.bandcamp.com/track/the-end-is-nigh" target="_blank" rel="noreferrer">LISTEN/BUY</a></button>
                     </div>
                 </div>
             </div>
