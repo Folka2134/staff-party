@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/staff-party/static/css/main.21c5ea7c.chunk.css",
+    "main.js": "/staff-party/static/js/main.7eddaa88.chunk.js",
+    "main.js.map": "/staff-party/static/js/main.7eddaa88.chunk.js.map",
+    "runtime-main.js": "/staff-party/static/js/runtime-main.abce797c.js",
+    "runtime-main.js.map": "/staff-party/static/js/runtime-main.abce797c.js.map",
+    "static/js/2.ae424f3c.chunk.js": "/staff-party/static/js/2.ae424f3c.chunk.js",
+    "static/js/2.ae424f3c.chunk.js.map": "/staff-party/static/js/2.ae424f3c.chunk.js.map",
+    "index.html": "/staff-party/index.html",
+    "static/css/main.21c5ea7c.chunk.css.map": "/staff-party/static/css/main.21c5ea7c.chunk.css.map",
+    "static/js/2.ae424f3c.chunk.js.LICENSE.txt": "/staff-party/static/js/2.ae424f3c.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/staff-party/static/media/vibe_pic.d4fd3a92.png",
+    "static/media/endisnigh_record.35796fa1.jpg": "/staff-party/static/media/endisnigh_record.35796fa1.jpg",
+    "static/media/rockbottom_record.4b2dd0c9.jpg": "/staff-party/static/media/rockbottom_record.4b2dd0c9.jpg",
+    "static/media/steam_record.69eb2204.jpg": "/staff-party/static/media/steam_record.69eb2204.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.abce797c.js",
+    "static/js/2.ae424f3c.chunk.js",
+    "static/css/main.21c5ea7c.chunk.css",
+    "static/js/main.7eddaa88.chunk.js"
+  ]
+}
